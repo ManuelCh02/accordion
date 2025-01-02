@@ -27,7 +27,14 @@ function validateListenerClicked(index) {
 // 3, 4, 5. Create actives sections
 const activeSection = document.createElement('div')
 activeSection.classList.add('active-section')
-const listOfContent = ['Content 1', 'Content 2', 'Content 3', 'Content 4', 'Content 5', 'Content 6']
+const listOfContent = [
+    "Stark Dev Center is run by, you guessed it, yours truly—Tony Stark. It's a hub for tech brilliance, innovation, and a little bit of pizzazz.", 
+    "It’s like having your own AI assistant, but instead of Jarvis, it’s me, guiding you through tech mastery, one epic roadmap at a time.", 
+    "Do I need to say it? Cutting-edge roadmaps, groundbreaking guides, and, of course, the Stark seal of genius.", 
+    "Of course. It's open to everyone, whether you’re building suits, apps, or anything in between. Just make sure to give credit where it's due—me.", 
+    "Easy. Pick your goal, follow my templates, and add your flair. You'll feel like you’re building your own arc reactor—minus the explosions.", 
+    "Absolutely. But hey, I don’t count the stars; I shine brighter than all of them combined."
+] // Yeah, I fill it with random text using AI 🫡
 
 function addActiveSection(index) {
     const getSection = accordionChildren[index]
