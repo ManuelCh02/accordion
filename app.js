@@ -8,7 +8,6 @@
 // 1. Get the list of nodes
 const accordion = document.querySelector('.main-accordion')
 const accordionChildren = Array.from(accordion.children)
-const grandSons = accordionChildren.map(element => Array.from(element.children))
 
 // 2. Add an event listener to each of the nodes
 accordionChildren.forEach((child) => {
